@@ -1,0 +1,54 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+*.venv/
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore log files
+*.log
+
+# Ignore user-specific configuration files
+*.conf.user
+
+# Ignore installation files and directories
+/mnt/
+/boot/
+/usr/
+
+# Ignore generated files and directories
+/dist/
+/build/
+
+# Ignore system-specific files
+/etc/fstab
+/etc/mtab
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Ignore local settings
+settings.ini
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package manager directories
+node_modules/
+bower_components/
